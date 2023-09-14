@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(#eee9dd 10%, #FFFFFF 90%); 
+    background-repeat: no-repeat;
+}
+
+@media screen
+    and (max-width: 1023px) {
+    #pdf-viewer {
+        width: 90%;
+        height: 120vw;
+    }
+}
+
+@media screen
+    and (min-width: 1024px) {
+    #pdf-viewer {
+        width: 60%;
+        height: 45vw;
+    }
+}
+
+@media screen
+    and (max-width: 1023px) {
+    #resume-header {
+        text-align: center; 
+        font-family: 'Avenir'; 
+        margin-top: 8vw;
+        font-size: 6vw;
+    }
+}
+
+@media screen
+    and (min-width: 1024px) {
+    #resume-header {
+        text-align: center; 
+        font-family: 'Avenir'; 
+        margin-top: 4vw;
+    }
+}
+
+@media screen
+    and (max-width: 1023px) {
+    #pdf-container {
+        display: grid; 
+        place-items: center; 
+        margin-top: 4vw;
+    }
+}
+
+@media screen
+    and (min-width: 1024px) {
+    #pdf-container {
+        display: grid; 
+        place-items: center; 
+        margin-top: 2vw;
+    }
+}
