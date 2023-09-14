@@ -8,6 +8,7 @@ body {
     #pdf-viewer {
         width: 90%;
         height: 120vw;
+        background-color: #FFFFFF;
     }
 }
 
@@ -16,6 +17,7 @@ body {
     #pdf-viewer {
         width: 60%;
         height: 45vw;
+        background-color: #FFFFFF;
     }
 }
 
