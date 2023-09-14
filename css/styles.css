@@ -9,6 +9,7 @@ body {
         width: 90%;
         height: 120vw;
         background-color: #FFFFFF;
+        border: solid;
     }
 }
 
